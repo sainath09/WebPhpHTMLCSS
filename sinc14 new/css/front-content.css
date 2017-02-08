@@ -1,0 +1,10 @@
+#home-feature-top-left, #home-feature-bottom-left, #home-article-left, #home-feature-top-right, #home-feature-bottom-right, #home-article-right {
+	width: 600px;
+	display: inline;
+	float: left;
+	
+}
+
+#home-feature-top-left, #home-feature-bottom-left, #home-article-left {margin: 0 10px 20px 0;}
+
+#home-feature-top-right, #home-feature-bottom-right, #home-article-right {margin: 0 0 20px 0;}

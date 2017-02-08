@@ -1,0 +1,150 @@
+
+
+aside h3 {
+	color: #fff;
+	font-size: 20px; 
+	text-transform:uppercase;
+	padding: 5px 0 5px 10px;
+	display: block;
+	margin-top:0;
+	position: relative;
+	margin-bottom:5px;
+	text-shadow: 0 -1px 1px rgba(19,65,88,0.8);
+}
+
+h3.sb_title_blue {
+	background: #005581;
+	background: -moz-linear-gradient(top,  #0c7ab4 0%, #005581 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0c7ab4), color-stop(100%,#005581)); 
+	background: -webkit-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: -o-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: -ms-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: linear-gradient(top,  #0c7ab4 0%,#005581 100%);
+	border-bottom: 1px solid #ffffff;
+
+}
+
+html.ie h3#important-dates-title {background: url(../img/bg/imp-dates.gif) top left repeat-x;}
+
+
+aside h3#email-form-title {margin-bottom:0; padding-bottom:0;}
+
+
+body.front #sidebar-second {padding-top: 20px;}
+
+#sidebar-second section {margin:0 0 20px 0;}
+
+section#block-views-important-dates-block {margin-left:0;}
+
+h3#important-dates-title, h3#free-webinar-title {
+	background: #005581;
+	background: -moz-linear-gradient(top,  #0c7ab4 0%, #005581 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0c7ab4), color-stop(100%,#005581)); 
+	background: -webkit-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: -o-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: -ms-linear-gradient(top,  #0c7ab4 0%,#005581 100%); 
+	background: linear-gradient(top,  #0c7ab4 0%,#005581 100%);
+	border-bottom: 1px solid #ffffff;
+
+}
+
+html.ie h3#important-dates-title {background: url(../img/bg/imp-dates.gif) top left repeat-x;}
+
+
+#email-form-square {
+	background: rgb(130,193,11);
+	background: -moz-linear-gradient(top, rgb(130,193,11) 0%, rgb(95,145,8) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(130,193,11)), color-stop(100%,rgb(95,145,8)));
+	background: -webkit-linear-gradient(top, rgb(130,193,11) 0%,rgb(95,145,8) 100%);
+	background: -o-linear-gradient(top, rgb(130,193,11) 0%,rgb(95,145,8) 100%);
+	background: -ms-linear-gradient(top, rgb(130,193,11) 0%,rgb(95,145,8) 100%);
+	background: linear-gradient(top, rgb(130,193,11) 0%,rgb(95,145,8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82c10b', endColorstr='#5f9108',GradientType=0 );
+	width: 296px;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+html.ie #email-form-square {background: url(../bg/img/email-form-bg.png) top left repeat-x;}
+
+#email-form-square p {margin:3px 10px 0;}
+
+input#edit-submitted-email {
+	width: 180px;
+	height: 24px;
+	margin: 10px 7px 10px 7px;
+	border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -khtml-border-radius: 5px;
+  	box-shadow: 0 1px 1px rgba(0,0,0,0.2) inset;
+	display:inline-block;
+	float: left;
+}
+
+#email-form-square input#edit-submit--2, #email-form-square input#edit-webform-ajax-submit-60 {
+	width: 82px;
+ 	height:32px;
+	display:inline-block;
+	position: relative;
+	float:right;
+	margin: 10px 7px 10px 0;
+}
+
+#email-form-square form input#edit-submit--2, #email-form-square form input#edit-webform-ajax-submit-60 {
+	width : 82px;
+	height :32px;
+}
+
+
+#email-form-square .form-item span.form-required {display:none;}
+
+#email-form-square .form-item, .form-actions {margin-bottom: 0; margin-top:0;}
+
+
+#webform-ajax-wrapper-60 .webform-confirmation {
+	background:#fff;
+	width: 266px;
+	margin:5px;
+	padding:5px;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3) inset;
+}
+
+#email-form-square .links>a {color:#fff; padding: 0 0 5px 5px;}
+
+
+#block-panels-mini-sidebar {
+	margin: 0px;
+	padding: 0px;
+}
+
+#block-panels-mini-sidebar .panel-pane, #webinar-cta {
+	margin-bottom: 20px;
+}
+
+
+
+
+/* Testimonials */
+#block-views-testimonials-testimonials-block {}
+
+#block-views-testimonials-testimonials-block .view-testimonials {
+	background: url(../img/testimonial-box.png) top left no-repeat #eeeeee;
+	display: block;
+	width:296px;
+	border-top: 1px solid #fcfcfc;
+}
+
+#block-views-testimonials-testimonials-block .view-testimonials .view-content {
+	background: url(../img/testimonial-box.png) bottom right no-repeat;
+	padding-bottom: 47px;
+}
+
+#block-views-testimonials-testimonials-block p, #block-views-testimonials-testimonials-block .views-row {margin: 10px;}
+
+#mini-panel-sidebar .view-testimonials article {margin:10px; text-shadow: 1px 1px 0 #ffffff;}
+
+#mini-panel-sidebar .view-testimonials .field-name-field-name p {text-align:right; }
+

@@ -1,0 +1,67 @@
+.navigation 
+{
+	list-style: none;
+	padding: 0 25px;	
+	margin: 0 auto;
+	width: 450px;
+	background: url(images/menu_bg.gif) 0 0 repeat-x;
+	font: normal 12px/18px Arial;
+}
+ul.navigation 
+{
+	float: left;
+}
+ul.navigation li 
+{
+ 	margin: 0 auto;
+	float: left;
+	padding-right: 15px;
+	position: relative;
+}
+ul.navigation li a
+{
+ 	float: left;
+	padding: 10px 5px;
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;	
+}
+ul.navigation li a:hover
+{
+	background: #000;
+}
+
+ul.navigation li ul.submenu 
+{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	position: absolute;
+	left: 0; 
+	top: 35px;
+	background: #222222;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #efefef;
+}
+ul.navigation li ul.submenu li
+{
+	margin: 0 auto; 
+	padding: 0;
+	border-bottom: 1px solid #373737;
+	width: 170px;
+}
+ul.navigation li ul.submenu li a 
+{
+	width: 145px;
+	background: #222222;
+	padding-left: 20px;
+	float: left;
+	color:#FFFFFF;
+}
+ul.navigation li ul.submenu li a:hover 
+{ 
+	background: #222222 url(images/tick.png) left center no-repeat;
+	padding-left: 30px;  
+}

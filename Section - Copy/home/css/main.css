@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+h2
+{
+	font-size:24px;
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.wrap { 
+	margin: 0 auto; 
+	width: 960px;
+}
+
+a 
+{
+	text-decoration: none;
+	color:#FFF;
+}
+
+body
+{
+	font:  Verdana, Tahoma, Sans-Serif; 
+	background: #f4f4f4 url(../images/bg/UI2.jpg) repeat-x; 
+}
+
+#main { 
+	clear: left; 
+	float: left; 
+	width: 680px;
+	border-right: 1px dotted #00F;
+	padding: 0 30px 0 0;
+	margin: 0 0 30px;
+	max-height:470px;
+	overflow:hidden;
+}
+
+.clear { 
+	clear: both; 
+}
+
+
+
+#side { 
+	float: right; 
+	width: 220px; 
+	font-size: .9em;
+}
+#side h4 {
+	margin: 0 0 23px;
+	font-size: 1.3em;
+}
+.news { 
+	border-bottom: 1px dotted #00F;
+	margin: 0 0 11px;
+ 
+}
+.news h5 { 
+	margin: 0 0 5px; 
+	font-size: 1.2em;
+}
+.news p {
+	margin: 0 0 11px;
+}
+
+
+
+
+#bits {
+	clear: both;
+	margin: 0 0 25px; 
+	margin-top: 70px;
+	border-top:#F00 dotted;
+}
+.bit {
+	float: left;
+	width: 203px;
+	padding: 0 35px 0 0;
+}
+.bit h4 {
+	margin: 0 0 18px;
+}
+.bit img { margin: 0 0 8px; }
+.bit p {
+	font-size: .9em;
+}
+.bit.last { padding-right: 0; }
+.more { margin: 0; }
+
+
+
+#mainmenu { 
+	float: right; 
+	padding: 39px 0 0; 
+}
+#menu ul { 
+	float: right; 
+}
+#menu li { 
+	display: inline; 
+	float: left; 
+	margin: 0 0 0 18px;
+	
+	 
+}
+#menu li a { 
+	display: block; 
+	color:#FFF; 
+	padding: 7px; 
+	font-size: 1.1em; 
+	border: 1px solid transparent; 
+}
+#menu a:hover{ 
+	border-color:#FFF;  
+}
+#menu li ul { 
+	top: 98px;
+	background: url(../images/dot.png); 
+	padding: 3px;
+	font-size: .92em; 
+	position: absolute; 
+	display:none;
+	z-index: 100; 	
+}
+#menu li ul li { 
+	float: none; 
+	display: inline; 
+	margin: 0;
+	padding: 0; 
+	clear: left;
+	
+}
+#menu li ul li a { 
+	color: #fff;s
+	margin: 4px; 
+	white-space: nowrap;
+	padding: 8px;
+	display:list-item;
+	position:relative;
+}
+#menu li ul li a:hover {
+	background: #2C2D2F;
+	border-color: #FFF;
+}
+
+
+#footer { 
+	clear: both; 
+	color: #999; 
+	background: url(../images/footertile.jpg) repeat-x;
+	font-size: .9em;
+}
+#footerbg {
+	padding: 35px 0 15px 0;
+	background: url(../images/footer.jpg) no-repeat center top;
+}
+#footer p { 
+	margin: 0 0 12px;
+	padding: 6px 0;
+}
+#footer_menu {
+	float: right;
+	padding: 4px 0 0;
+}
+#footer a { 
+	color: #999; 
+	margin: 0 5px 0 0; 
+	padding: 6px 10px;
+	background: url(../images/dot.png) no-repeat left center; 
+	border: 1px solid transparent;
+}
+#footer a:hover {
+	border-color: #555;
+}
+#fleft {
+	clear: both;
+	padding: 25px 0 0;
+	font-size: .94em;
+}
+
+#copy { 
+	color: #777; font-size: 1.5em; 
+}
+#copy span { 
+	color: #999; 
+}

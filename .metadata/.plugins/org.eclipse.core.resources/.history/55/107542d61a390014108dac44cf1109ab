@@ -1,0 +1,20 @@
+<?php
+	
+	if(!isset($_SESSION['username']))
+		header("refresh:0;url=../");
+?>
+
+<!DOCTYPEhtml>
+<html>
+<head>
+
+</head>
+<body>
+
+<form>
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+</form>
+
+</body>
+</html>

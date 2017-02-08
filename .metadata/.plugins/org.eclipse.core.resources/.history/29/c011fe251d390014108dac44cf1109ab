@@ -1,0 +1,24 @@
+<?php
+require 'Connection.php';
+	if(!isset($_SESSION['username']))
+		//header("refresh:0;url=../");
+
+		$myDate= date('m/d/Y');
+		?>
+
+<!DOCTYPEhtml>
+<html>
+<head>
+
+</head>
+<body>
+
+<form id='rcall'>
+<input type="radio" name="rabscent" value="ab" onClick="javascript:forgot();><?php echo("Roll call absent on $myDate ")?><br>
+<input type="radio" name="rabscent" value="abe" onClick="javascript:forgot();> <?php echo("Roll call absent on $myDate due to emergency")?>
+<input type="text" name="firstname" >
+
+</form>
+
+</body>
+</html>

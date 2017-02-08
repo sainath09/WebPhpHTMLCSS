@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SEDS SASTRA</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro" rel="stylesheet" />
+		<!--[if lte IE 8]><script src="html5shiv.js" type="text/javascript"></script><![endif]-->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>		
+		<script src="js/skel.min.js">
+		{
+			prefix: 'css/style',
+			preloadStyleSheets: true,
+			resetCSS: true,
+			boxModel: 'border',
+			grid: { gutters: 30 },
+			breakpoints: {
+				wide: { range: '1200-', containers: 1140, grid: { gutters: 50 } },
+				narrow: { range: '481-1199', containers: 960 },
+				mobile: { range: '-480', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
+			}
+		}
+		</script> 
+		<script>
+			$(function() {
+
+				// Note: make sure you call dropotron on the top level <ul>
+				$('#main-nav > ul').dropotron({ 
+					offsetY: -10 // Nudge up submenus by 10px to account for padding
+				});
+
+			});
+		</script>
+		<script>
+			// DOM ready
+			$(function() {
+    
+			// Create the dropdown base
+			$("<select />").appendTo("nav");
+   
+			// Create default option "Go to..."
+			$("<option />", {
+				"selected": "selected",
+				"value"   : "",
+				"text"    : "Menu"
+			}).appendTo("nav select");
+   
+			// Populate dropdown with menu items
+			$("nav a").each(function() {
+			var el = $(this);
+			$("<option />", {
+				"value"   : el.attr("href"),
+				"text"    : el.text()
+			}).appendTo("nav select");
+			});
+   
+			// To make dropdown actually work
+			// To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+			$("nav select").change(function() {
+				window.location = $(this).find("option:selected").val();
+			});
+  
+			});
+		</script>	
+	</head>
+	<body>
+		<div id="header_container">		
+		    <div class="container">
+			<!-- Header -->
+				<div id="header" class="row">
+					<div class="4u">
+						
+							<img class="logoclass" src="images/logo.png" height="128" width="695" /> 
+							
+					    
+					</div>
+					
+					<nav id="main-nav" class="8u">
+						<ul>
+							<li><a  href="index.html">Home</a></li>
+							<li><a  href="about.html">About SEDS</a></li>
+							<li><a class="active" href="clusters.html">Clusters</a></li>
+							<!--<li><a href="anotherpage.html">Another Page</a></li>	-->						
+							<li>
+								<a href="#">Extras</a>			
+									<ul>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li>
+											<a href="#"></a>
+												<ul>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+												</ul>
+										</li>
+									</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>	
+        </div>		
+
+		<!-- Banner -->		
+		<div id="banner_wrapper">	
+			<div class="container">					
+				<div class="css-slideshow" id="banner">
+					<figure>
+                    <img src="images/test.jpg" alt="banner image" />
+                   
+                    <img src="images/test.jpg" alt="banner image" />
+                    
+                    <img src="images/test.jpg" alt="banner image" />
+                    
+                    <img src="images/test.jpg" alt="banner image" /></figure>
+				</div>	
+            </div>	
+        </div>			
+		
+		<div id="site_content">
+			<div class="container">			
+				
+			<!-- Features -->
+				<div class="row">
+					<section class="6u">
+						<h1>The general body is divided into:- </h1>
+
+<strong><h2>1. EVENTS TEAM:</h2></strong><p> This will comprise of members who will organise the events such as general body meeting, guest lectures, workshops, debates, SEDS-SASTRA Conference etc. </p>
+
+<h2>2. OUTREACH TEAM:</h2> 
+<h3>This team consists of:- </h3>
+<h4>a. Marketing team. </h4>
+<h4>b. Media and Publicity </h4>
+<h4>c. One Space Program</h4> for school students and orphanages, where teams will be formed and assisted on a regular basis on various concepts of space science and possible mini-projects. 
+<h2>
+3. PROJECTS TEAM: </h2>This team will consist of screened core members who are technically sound and involve themselves into projects of SEDS-SASTRA, sign M.o.U. with research organisations and companies for sponsorship etc.
+Each team will consist of an interviewed head chosen by the advisory committee in the presence of the President of SEDS-SASTRA. The club activities will be such that SEDS-SASTRA will be divided into teams with mix of members, as grouped by the executive committee, with heads and vice-heads for each team. Every club session shall involve healthy interactions and competitions between these club teams. BONUS points will be awarded to those team members who are active general body members. At the end of each year, there will be a SEDS-SASTRA Conference with reports, participation of schools that are part of ONE SPACE PROGRAM. The team with leading points shall be awarded the best team of the year. Also, active members shall be given certificates, allowance along with certificates for executive members.
+					</section>						
+					<section class="4u">
+						<div class="box">
+							<section class="12u">
+								<h3>Latest News</h3>
+								<h4>Orientation on 18th Sept.</h4><h4>Core team selection on 19th and 20th of september!</h4>
+								
+							</section>
+							<section class="12u">
+							<!--	<h3>Useful Links</h3>
+								<ul>
+									<li><a href="#">First Link</a></li>
+									<li><a href="#">Another Link</a></li>
+									<li><a href="#">And Another</a></li>
+									<li><a href="#">Last One</a></li>
+								</ul> -->
+							</section>
+						</div>
+					</section>
+					
+				</div>
+			</div>
+        </div>		
+		
+			<div class="container">			
+			<!-- Footer -->
+				<footer>
+					<p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+					
+					<p>Copyright &copy; SEDS-SASTRA 2015</p>
+				</footer>		
+			</div>		
+			
+	</body>
+</html>

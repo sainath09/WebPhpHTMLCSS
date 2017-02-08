@@ -1,0 +1,595 @@
+<?php
+include('./common.php');
+?>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ICTAS</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/flippopup.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.flippopup.js"></script>
+    
+       <script>
+    $( document ).ready(function(){
+   $( "#pop1" ).hide();
+        
+        
+
+   $( ".linkpulsblue" ).click(function() {
+ $( "#pop1" ).flipOrizzontal({
+    	color: "#fff",
+        xcolor:"#0edce3",
+        lightboxcolor:"#0edce3",
+        backgroundcolor:"#0edce3",
+        border_radius:"25px",
+        speed:"0.5",
+        shadowcolor:"#0edce3",
+        shadowsize:"0px 0px 25px 5px",
+        font_family:"arial",
+        popupwidth:"600px",
+        popupheight:"400px",
+        
+        iframescrolling:"yes"
+
+    });                            
+});
+        
+        
+        
+        
+    
+});
+    </script>
+    
+
+<script type="text/javascript">
+		function clicked($head)
+		{
+			if($head=='home')
+			{
+				document.getElementById("body").style.maxHeight="600px";
+			}
+			else if($head=='about')
+			{
+				document.getElementById("body").style.maxHeight="1000px";
+			}
+			else if($head=='events')
+			{
+				document.getElementById("body").style.maxHeight="1000px";
+			}
+			else if($head=='blogs')
+			{
+				document.getElementById("body").style.maxHeight="1000px";
+			}
+			else if($head=='contacts')
+			{
+				document.getElementById("body").style.maxHeight="2000px";
+			}
+			else if($head=='credits')
+			{
+				document.getElementById("body").style.maxHeight="400px";
+			}
+		}
+
+		function load()
+		{
+			document.getElementById("body").style.maxHeight="600px";
+			
+		}
+		</script>
+
+
+
+
+</head>
+
+
+<body onload="load()">
+<SCRIPT type="text/javascript" src="js/starst.js"></SCRIPT>
+	<div class="header">
+		<div>
+			<a href="index.html" id="logo"><img src="images/fin.png" alt="logo"></a>
+			<ul>
+				<li> <a href="#home" onclick="clicked('home')"><span>H</span>ome</a></li>
+				
+				<li> <a href="#about" onclick="clicked('about')"><span>A</span>bout</a></li>
+				<li>
+					<a href="#events" onclick="clicked('events')"><span>E</span>vents</a>
+				</li>
+				<li>
+					<a href="#blogs" onclick="clicked('blogs')"><span>B</span>log</a>
+				</li>
+				<li>
+					<a href="#contacts" onclick="clicked('contacts' )"><span>C</span>ontact</a>
+				</li>
+				<li>
+					<a href="#credits" onclick="clicked('credits')"><span>C</span>redits</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<div class="body" id="body"  >
+		<div class="home" id="home" style="visibility:visible;">
+		
+		
+			<div >
+				<div>
+					<div>
+						<div class="section">
+							<h2>What is ICT@S</h2>
+							<p>
+								ICT@S (Information and Communication Technology @ SASTRA) was established in the year 2010. The association is headed by Dr.K.S.Ravichandran and is run by the elected board members. Throughout the year, ICT@S conducts a plethora of events which engages the smartest minds across the university.
+								
+							</p>
+							<ul>
+								<li>
+									<p>
+										Building technical, non-technical and communicative skills in a student.
+									</p>
+								</li>
+								<li>
+									<p>
+										Hunt the talented student through competitions and events.
+									</p>
+								</li>
+								<li>
+									<p>
+										Develop some thirst for participation through workshops and sessions.
+									</p>
+								</li>
+								
+							</ul>
+							<ul class="last">
+								<li>
+									<p>
+										Equally engaging students from other departments.
+									</p>
+								</li>
+								<li>
+									<p>
+										Bring out the geek or entrepreneur inside them.
+
+									</p>
+								</li>
+								<li>
+									<p>
+										And make the students feel proud for being ICTans.
+									</p>
+								</li>
+								
+							</ul>
+						</div>
+						<div>
+							<h3>UPCOMING EVENTS</h3>
+							<ul>
+								<li>
+									<div>
+										<span></span>
+										<p>
+											
+										</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span></span>
+										<p>
+											
+										</p>
+									</div>
+								</li>
+								<li class="last">
+									<div>
+										<span></span>
+										<p>
+											
+										</p>
+									</div>
+								</li>
+							</ul>
+							<a href="#events">View All</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		</div>
+		
+		
+	<br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+	
+	<!-- about start -->
+	
+			<div id="about">
+			<div>
+				<div>
+					<div class="about">
+						<div>
+							<h2>ICT</h2>
+							<div>
+								<h3>Information & Communication Technology</h3>
+								<br><br>
+								<p>In 2006 ,  B.Tech program in Information & Communication Technology was started. 
+								This B.Tech. programme is a proper blend of communication engineering and Information Technology.
+								 Department is engaged in teaching and research in the areas of VLSI, Embedded Systems, E-Commerce, Multimedia technologies and Internet Securities.
+								  M.Tech, PG Diploma program, Certificate and short-term courses are run from this department.
+								   The department is equipped with excellent lab facilities consisting of latest hardware and software in computing VLSI, Multimedia, Image processing etc.
+								    The department has round the clock access to the Internet lab with 370 mbps clean internet connection.
+									</p>
+								<h2>ICT@S</h2>
+								<h3>ICT Association at SASTRA</h3>
+								<br>
+								<p>ICT@S (Information and Communication Technology @ SASTRA) was established in the year 2010. The association is headed by Dr.K.S.Ravichandran and is run by the elected board members. Throughout the year, ICT@S conducts a plethora of events which engages the smartest minds across the university.
+								
+									</p>
+									
+									<p>ICT@S has and is always been one of the most active department associations in the campus. Workshops, sessions, events and competitions are conducted throughout the year. ICT@S is a forum for some enthusiastic minds who want to stand apart from the rest of the crowd and lead it.
+									</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								
+								<h2 align="center">TECH CARNIVAL</h2>
+								<h3 href="../techcarnival15/index.html">TC'15</h3>
+								
+							</div>
+							<div>
+								<h3> </h3>
+								<p>
+									</p>
+								<p>
+									</p>
+								<p>
+									</p>
+								<p>
+									</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+	
+	<!-- events start -->
+	<div  id="events">
+			<div class="linkpulsblue">
+				<div>
+					<div class="events">
+						<h2>UPCOMING EVENTS</h2>
+						<div class="first">
+							<h3>This is just a place holder</h3>
+							<p>
+								</p>
+							<p>
+								</p>
+							
+						</div>
+						<div>
+							<ul>
+								<li>
+									<div>
+										<span>2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span>2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span>2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span>2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<br><br><br><br><br><br><br><br>
+	<!-- blogs start here -->
+	<div id="blogs">
+			<div>
+				<div>
+					<div class="blog">
+						<h2>Blog</h2>
+						<div class="first">
+							<h3>This is just a place holder</h3>
+							<p>
+								</p>
+							
+						</div>
+						<div>
+							<ul>
+								<li>
+									<div>
+										<h3>Recent Posts</h3>
+										<span>11/07/2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<span>11/03/2011</span>
+										<p>
+											</p>
+									</div>
+								</li>
+								<li>
+									
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br>
+		<!-- contacts start here -->
+	
+	<div class="contact" id="contacts">
+			<div>
+			
+				<div class="contact">
+				<h2 align="center">ICT@S team</h2>
+				
+						
+						<h3>Faculty</h3>
+						
+						<div class="contact">
+							<h4 align="center" >Dr.K S Ravichandran</h4>
+							<h4 align="center" >Dr.Vaidhyanathan,V</h4>
+							<h4 align="center" >Dr.Muthaiah,R</h4>
+							<h4 align="center" >Dr.Shanthi,B</h4>
+						</div>
+				<div>
+					
+						<div class="address">
+							<span>Chairman:</span>
+							<p>
+								Karthik Ganeshan.
+								<!-- <img id="chair" align="right" src="images/chair.jpg"> -->
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								9789266247
+							</p>
+							<span>E-mail:</span>
+							<p>
+								g.karthick1993@gmail.com
+							</p>
+						
+						</div>
+						
+						<div class="address">
+							<span>Vice-Chairman:</span>
+							<p>
+								Sai Krishna.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								9791884768
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 @gmail.com
+							</p>
+						</div>
+						
+						<div class="address">
+							<span>Treasurer:</span>
+							<p>
+								Tumkhi Nikil Raju.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								7845355678
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 @gmail.com
+							</p>
+						</div>
+						
+						<div class="address">
+							<span>Chief Advisor:</span>
+							<p>
+								Ragavendra Amaladinne.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								9789658127
+							</p>
+							<span>E-mail:</span>
+							<p>
+								@gmail.com
+							</p>
+						</div>
+						<div class="address">
+							<span>Organizing Head:</span>
+							<p>
+								Sandeep Kumar Reddy.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								9500502972
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 @gmail.com
+							</p>
+						</div>
+						<div class="address">
+							<span>Co-Ordinators:</span>
+							<p>
+								Gowtham V & Akshaya.
+							</p>
+							<span><span>P</span>hone <span>N</span>umbers:</span>
+							<p>
+								8220235366 & 9698105783
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 @gmail.com
+							</p>
+						</div>
+						<div class="address">
+							<span>General Secretary:</span>
+							<p>
+								Chandramouli.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								8870029004
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 moulismart@gmail.com
+							</p>
+						</div>
+						<div class="address">
+							<span>Joint Secretry:</span>
+							<p>
+								Susmitha.
+							</p>
+							<span><span>P</span>hone <span>N</span>umber:</span>
+							<p>
+								8870029004
+							</p>
+							<span>E-mail:</span>
+							<p>
+								 @gmail.com
+							</p>
+						</div>
+						
+						
+						
+					<!--	<h3><span>F</span>or <span>A</span>ny <span>I</span>nquiries, <span>P</span>lease <span>F</span>ill <span>o</span>ut <span>T</span>he <span>F</span>orm <span>B</span>elow.</h3>
+						<form action="query.php">
+							<table>
+								<tr>
+									<td><label for="name"><span>N</span>ame:</label></td>
+									<td><input type="text" id="name"></td>
+								</tr>
+								<tr>
+									<td><label for="email"><span>E</span>mail <span>A</span>ddress:</label></td>
+									<td><input type="text" id="email"></td>
+								</tr>
+								<tr>
+									<td><label for="sub"><span>S</span>ubject:</label></td>
+									<td><input type="text" id="sub"></td>
+								</tr>
+								<tr>
+									<td><label for="msg"><span>M</span>essage:</label></td>
+									<td><textarea name="msg" id="msg" cols="30" rows="10"></textarea></td>
+								</tr>
+							</table>
+							<input type="submit" value="Send" id="submit">
+						</form> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	<br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+	<!-- credits start here -->
+	<div class="contact" id="credits">
+			<div>
+				<div>
+					<div class="contact">
+						<h2>Credits</h2>
+						<div class="address">
+							Webpage desigined and maintained by Sai Nath KPS.<br>
+                             kps.sainath@gmail.com
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br>
+	
+	 <div class="footer">
+		<div>
+			
+			<div>
+				<h4>LATEST BLOG</h4>
+				<ul>
+					<li>
+						<p>
+							<a href="blog.html">.</a>
+						</p>
+						<span></span>
+					</li>
+					<li>
+						<p>
+							<a href="blog.html">.</a>
+						</p>
+						<span></span>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="connect">
+				<h4>FOLLOW US:</h4>
+				<a href="http://facebook/" class="facebook">Facebook</a> <a href="http://twitter/" class="twitter">Twitter</a> <a href="http://googleplus/" class="google">Google+</a>
+			</div>
+		</div>
+		<div >
+			
+			<p>
+				Maintained my WebMaster|ICT@S &#169; 2014 | All Rights Reserved
+			</p>
+		</div>
+	</div>
+	
+	
+<div id="pop1">
+  <p>Wait for awesomeness</p>
+      <p>Site developed by Sai Nath KPS.</p>
+      <p>A bug out of my hands!</p>
+      <p>Please do not reload the #ed pages.You will know what would happen! :D</p>
+    </div>
+
+<script type="text/javascript">
+
+ 
+	 
+</body>
+</html>

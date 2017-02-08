@@ -1,0 +1,7 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 echo $myDate;
+			 mysql_query("update  $table date=$myDate where username= ") or die("Not Found :P");
+?>

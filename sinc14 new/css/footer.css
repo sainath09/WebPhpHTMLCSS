@@ -1,0 +1,88 @@
+
+
+footer{
+	margin:0;
+	padding:0;
+	padding-top:10px;
+	float: left;
+	width: 100%;
+	position:relative;
+}
+
+#footer-logo {
+	margin: 0 10px; 
+	width: 270px; 
+	float: right;
+	display: inline;
+	text-align: right;
+}
+
+#footer-links {
+	width: 658px;
+	margin: 0 10px;
+	float: left;
+	display: inline;
+}
+
+#top-link {
+	position: absolute;
+	right:0px;
+	top: 30px;
+	width: 274px;
+	height: 31px;
+	margin-top:15px;
+}
+
+#copyright {
+	font-size: 12px;
+	color:#222222;
+	padding-top: 20px;
+	line-height: 14px;
+}
+
+#copyright a, #copyright a:visited {
+	font-family: "MuseoSlab500", Rockwell, serif; 
+	color:#2192d5; 
+	text-decoration:none;
+	text-shadow: 1px 1px 0 #003b59;
+}
+#copyright a:hover, #copyright a.active {color: #ffffff;}
+
+/*==========================================
+	FOOTER MENU
+==========================================*/
+
+/* Main Links */
+#block-system-main-menu ul.menu {
+	margin: 0 10px 0 0;
+	padding:0px;
+	list-style:none;
+	float: left;
+}
+
+#block-system-main-menu ul ul {
+	padding: 0;
+	display: none;
+}
+
+#block-system-main-menu li  {
+	display:inline;
+	margin: 0 10px;
+	padding:0;
+}
+
+#block-system-main-menu li.first  {margin-left: 0;}
+#block-system-main-menu li.last  {margin-right: 0;}
+
+
+/* FOOTER MENU */
+#block-system-main-menu li a {
+	font-family: "MuseoSlab500", Rockwell, serif; 
+	text-decoration: none; 
+	font-size: 12px;
+	text-shadow: 1px 1px 0 #003b59;
+}
+
+#block-system-main-menu li.leaf a {font-size:13px; text-decoration: none;}
+#block-system-main-menu a, #block-system-main-menu a:visited {color:#2192d5;}
+#block-system-main-menu a:hover, #block-system-main-menu a:active {color:#fff;}

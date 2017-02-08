@@ -1,0 +1,5 @@
+<?php
+require 'Connection.php';
+$u=mysql_query("SELECT * FROM $table") or die("Not Found :P");
+echo ($u);
+?>

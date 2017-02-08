@@ -1,0 +1,22 @@
+<?php
+require 'Connection.php';
+	if(!isset($_SESSION['username']))
+		//header("refresh:0;url=../");
+
+		$date=$_SESSION['myDate']
+		?>
+
+<!DOCTYPEhtml>
+<html>
+<head>
+
+</head>
+<body>
+
+<form id='rcall'>
+<input type="checkbox" name="rabscent" value="ab"><?php echo("Roll call absent on $date")?><br>
+<input type="checkbox" name="rabscent" value="abe"> <?php echo("Roll call absent on $myDate")?>
+</form>
+
+</body>
+</html>

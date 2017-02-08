@@ -1,0 +1,20 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 
+
+?>
+
+<html>
+<head>
+</head>
+<body>
+<form id="passtext" action="./rollcall.php" method="post" style="visibility:hidden;">
+	  <input type="text" placeholder="Email" name="email"/>
+	  <input type="submit" value="Go" name="enter"/> 
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<?php 
+ $host="mysql.1freehosting.com";
+ $root="u575530488_user";
+ $pass="msubbiah94";
+ $db="u575530488_user";
+ $table="sec";
+ $res=mysql_connect($host,$root,$pass);
+ $con=mysql_select_db($db,$res);
+?>

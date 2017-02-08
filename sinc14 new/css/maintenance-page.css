@@ -1,0 +1,14 @@
+body.maintenance-page {
+	margin: 0;
+	padding: 0;
+	background-color:#fff;
+	background:none;
+	color:#fff;
+}
+
+.maintenance-page #container {
+	background:url() top center no-repeat;
+	margin:0 auto;
+	width:500px;
+	height:500px;
+}

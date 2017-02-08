@@ -1,0 +1,43 @@
+Client Info
+
+User Agent : Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+Remote Address : 127.0.0.1
+
+Server Info
+
+Host : 127.0.0.1
+PHP Version : 5.4.12
+Server : Apache/2.4.4 (Win64) PHP/5.4.12
+Admin : admin@example.com
+
+Document Root : C:/wamp/www
+ROOT_PATH : C:\wamp\www\orangehrm-2.6.3
+
+OrangeHRM Installation Log
+
+Sun, 14 Sep 2014 07:52:45 +0000 DB Creation - Starting
+Sun, 14 Sep 2014 07:52:45 +0000 DB Creation - Done
+Sun, 14 Sep 2014 07:52:45 +0000 DB Creation - No Errors
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Starting
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Connected to the DB Server
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Selected the DB
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Reading DB Script
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Opened DB Script
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - Read DB script
+Sun, 14 Sep 2014 07:52:47 +0000 Fill Data Phase 1 - There are 177 Statements in the DB script
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Starting
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Connected to the DB Server
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Selected the DB
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Reading DB Script
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Opened DB Script
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Read DB script
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - There are 177 Statements in the DB script
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Error Statement # 0 
+Sun, 14 Sep 2014 07:53:19 +0000 create table `hs_hr_geninfo` (
+	`code` varchar(13) not null default '',
+	`geninfo_keys` varchar(200) default null,
+	`geninfo_values` varchar(800) default null,
+	primary key (`code`)
+) engine=innodb default charset=utf8
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - Done
+Sun, 14 Sep 2014 07:53:19 +0000 Fill Data Phase 1 - No Errors

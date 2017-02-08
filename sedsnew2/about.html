@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SEDS SASTRA</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style-wide.css" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Source+Code+Pro" rel="stylesheet" />
+		<!--[if lte IE 8]><script src="html5shiv.js" type="text/javascript"></script><![endif]-->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>		
+		<script src="js/skel.min.js">
+		{
+			prefix: 'css/style',
+			preloadStyleSheets: true,
+			resetCSS: true,
+			boxModel: 'border',
+			grid: { gutters: 30 },
+			breakpoints: {
+				wide: { range: '1200-', containers: 1140, grid: { gutters: 50 } },
+				narrow: { range: '481-1199', containers: 960 },
+				mobile: { range: '-480', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
+			}
+		}
+		</script>
+		<script>
+			$(function() {
+
+				// Note: make sure you call dropotron on the top level <ul>
+				$('#main-nav > ul').dropotron({ 
+					offsetY: -10 // Nudge up submenus by 10px to account for padding
+				});
+
+			});
+		</script>
+		<script>
+			// DOM ready
+			$(function() {
+    
+			// Create the dropdown base
+			$("<select />").appendTo("nav");
+   
+			// Create default option "Go to..."
+			$("<option />", {
+				"selected": "selected",
+				"value"   : "",
+				"text"    : "Menu"
+			}).appendTo("nav select");
+   
+			// Populate dropdown with menu items
+			$("nav a").each(function() {
+			var el = $(this);
+			$("<option />", {
+				"value"   : el.attr("href"),
+				"text"    : el.text()
+			}).appendTo("nav select");
+			});
+   
+			// To make dropdown actually work
+			// To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+			$("nav select").change(function() {
+				window.location = $(this).find("option:selected").val();
+			});
+  
+			});
+		</script>	
+	</head>
+	<body>
+		<div id="header_container">		
+		    <div class="container">
+			<!-- Header -->
+				<div id="header" class="row">
+					<div class="4u">
+						
+							<img class="logoclass" src="images/logo_seds.png" height="128" width="695" /> 
+							
+					    
+					</div>
+					
+					<nav id="main-nav" class="8u">
+						<ul>
+							<li><a  href="index.html">Home</a></li>
+							<li><a class="active" href="about.html">About SEDS</a></li>
+							<li><a href="clusters.html">Clusters</a></li>
+							<!--<li><a href="anotherpage.html">Another Page</a></li>	-->						
+							<li>
+								<a href="#">Extras</a>			
+									<ul>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li>
+											<a href="#"></a>
+												<ul>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+													<li><a href="#"></a></li>
+												</ul>
+										</li>
+									</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>	
+      </div>		
+
+		<!-- Banner -->		
+		
+		<div id="site_content">
+			<div class="container">			
+				
+			<!-- Features -->
+				<div class="row">
+					<section class="6u">
+						<h1>SEDS </h1>
+                        <h2>Students for the exploration and development of space</h2>
+						<p>Students for the Exploration and Development of Space (SEDS) is an international student organization whose purpose is to promote space exploration and development through educational and engineering projects.</p>
+					<p>Students for the Exploration and Development of Space was founded in 1980 at MIT, Princeton University, and Yale University, and consists of an international group of high school, undergraduate, and graduate students from a diverse range of educational backgrounds who are working to promote space. SEDS is a chapter-based organization with chapters in Canada, India, Israel, Mexico, Nepal, Nigeria, Philippines, Spain, United Kingdom, and United States. The permanent National Headquarters for SEDS-USA resides at MIT and that of SEDS-India at VIT University. Each chapter is fairly independent and coordinates activities and projects in its own area.</p>
+                    <p>
+                    SEDS is established by on September 17, 1980 primarily by Peter Diamandis, Robert D. Richards, and Todd B. Hawley and their first meeting was held on Thursday, October 30, 1980. After the initial meetings in 1980, SEDS president Peter Diamandis wrote a letter to the editor of Omni magazine deploring the status of the space program and asking students to help make a difference. The letter, published in Omni in early 1981, attracted students from around the world to SEDS. This laid the foundations for the first SEDS international conference, held at George Washington University between July 15–19, 1982. As the decade progressed, SEDS continued to have more international conferences, which rotated among schools including George Washington University (again), University of Alabama in Huntsville, and Caltech. During the end of the decade, UKSEDS was founded at the Science Museum (London) and held their first conference at the University of Cambridge during 25–26 November 1989.</p>
+                    <h1>SEDS-INDIA</h1>
+                    <p>SEDS-India is the governing body of SEDS in India with its headquarters at VIT University.SEDS in India was started in 2004 by Mr. Pradeep Mohandas, an undergrad engineering student and an all time space lover and by Mr. Abhishek Ray. The first chapter sprang up in Mumbai at PIIT, New Panvel and had 5 members, a humble beginning for this now vibrant community of amateur Space Explorers, hobbyists and enthusiasts.
+The governing body was set up in 2005 to co-ordinate the activities, projects, events and outreach of all the affiliated member chapters of SEDS India. The Executive council of SEDS India consists of six Board Members who are selected through a rigorous voting process, all the individual members of SEDS India are eligible to Vote to select their Committee. The Committee serves for a period of one year and works towards expansion of the Chapter Base in India. SEDS India has successfully conducted four Conferences in the past and shall in the coming years regularize the concept of SEDS India National Conference or the SEDS International Conference, held across 2007-2012. SEDS India has funding secured for six projects which are carried out by its Chapter Members. There have been active collaboration with various organizations in the Space Industry that guide SEDS India in the right direction. The Permanent Trustee of SEDS India is Dr. Geetha Manivasagam, Professor, VIT University. The advisory panel has various accomplished dignitaries on its board, including the Associate Director of Vikram Sarabhai Space Center.</p>
+                    
+            
+		</section>
+					<section class="6u">
+						<a href="#" class="image" ><img src="images/2.jpg" alt="image"/></a>
+                        <h1>Let's bring all the alone creatures together!</h1>
+					</section>					
+				</div>
+				<div class="row">	
+					<section class="4u">
+						<div class="box">						
+							
+							<p>Mars has been flown by, orbited, smacked into, radar examined, and rocketed onto, as well as bounced upon, rolled over, shoveled, drilled into, baked and even blasted. Still to come: Mars being stepped on.</p>
+                            <h3>-Buzz Aldrin</h3>
+									</div>
+					</section>		
+					<section class="4u">
+						<div class="box">
+							<h3>ISRO Updates:</h3>
+							<p>Isro to launch ASTROSAT, 6 foreign satellites on 28 September</p>
+							<p>ISRO Will Now Use Nuclear Energy To Increase Life Span & Safety Of Chandrayaan 2</p>
+						</div>
+					</section>						
+					<section class="4u">
+						<div class="box">
+							<section class="12u">
+								<h3>Latest News</h3>
+								<h4>Orientation on 18th Sept.</h4><h4>Core team selection on 19st and 20th of september!</h4>
+								
+							</section>
+							<section class="12u">
+							<!--	<h3>Useful Links</h3>
+								<ul>
+									<li><a href="#">First Link</a></li>
+									<li><a href="#">Another Link</a></li>
+									<li><a href="#">And Another</a></li>
+									<li><a href="#">Last One</a></li>
+								</ul> -->
+							</section>
+						</div>
+					</section>
+					
+				</div>
+			</div>
+        </div>		
+		
+			<div class="container">			
+			<!-- Footer -->
+				<footer>
+					<p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+					
+					<p>Copyright &copy; SEDS-SASTRA 2015</p>
+				</footer>		
+			</div>		
+			
+	</body>
+</html>

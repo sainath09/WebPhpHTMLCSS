@@ -1,0 +1,24 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 
+
+?>
+
+<html>
+<head>
+</head>
+<body>
+
+<font face="Georgia, Times New Roman, Times, serif" size="+1" color="#FF0000" style="background:#FFFFFF;">Forgot Password???</font>
+     <input id="pass" style="margin-left:7px;" type="radio" name="foruser" value="foruser" onClick="javascript:forgot();" border="solid" />  
+  
+<form id="passtext" action="./rollcall.php" method="post" style="visibility:hidden;">
+	  <input type="text" placeholder="Email" name="email"/>
+	  <input type="submit" value="Go" name="enter"/> 
+  </form>
+
+</body>
+
+</html>

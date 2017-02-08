@@ -1,0 +1,140 @@
+body{ 
+    background: top scroll no-repeat  url(../images/form1/Chith%20Vihar.jpg);
+	font:13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	color:#333;
+	line-height:160%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	overflow:hidden;
+	}
+
+h1{
+	font-size:300%;
+	font-weight:normal;
+	font-family:"MS Serif", "New York", serif;
+	color:#FF0000;
+}		
+		
+input, select{
+	font:100% Tr`ebuchet MS, Arial, Helvetica, Sans-Serif;
+	line-height:160%;
+	color:#333;
+	}				
+
+img{
+	border:thick #F00;
+	}			
+	
+#container{	
+    border:thick #F00;
+	margin-top:200px;
+	margin-left:300px;
+	opacity:50%;
+	background-position:center;
+	position:300px;
+	width:600px;
+	padding:20px 40px;
+	text-align:left;
+}		
+
+#form1{
+	margin:1em 0;
+	padding-top:10px;
+	background:url(../images/form1/form_top.gif) no-repeat 0 0 inherit;
+}
+   
+#form1 fieldset{
+	margin:0;
+	padding:0;
+	border:none;	
+	float:left;
+	display:inline;
+	width:260px;
+	margin-left:25px;
+}
+		
+#form1 legend{display:none;}	
+#form1 p{margin:.5em 0;}	
+#form1 label{display:block;}	
+#form1 input, #form1 textarea{		
+	width:252px;
+	border:1px solid #ddd;
+	background:#fff url(../images/form1/form_input.gif) repeat-x;
+	padding:3px;
+	}		
+#form1 textarea{
+	height:125px;
+	overflow:auto;
+	}					
+#form1 p.submit{
+	clear:both;
+	background:url(../images/form1/form_bottom.gif) no-repeat 0 100% inherit;
+	padding:0 30px 20px 30px;
+	margin:0;
+	size:10%
+	text-align:right;
+	}
+#form1 p.signup{
+    padding:0 30px 20px 30px;
+	margin:0;
+	text-align:left;
+}
+#form1 button{
+	width:150px;
+	height:37px;
+	line-height:37px;		
+	border:none;
+	background:url(../images/form1/form_button.gif) no-repeat 0 0 ;
+	color:#fff;
+	cursor:inherit;
+	text-align:center;
+	}				
+#form2{
+	padding-top:8px;
+	}
+#form2 fieldset{
+	margin:0;
+	padding:0;
+	border:none;	
+	float:left;
+	display:inline;
+	width:260px;
+	margin-left:25px;
+	}		
+#form2 legend{display:none;}	
+#form2 p{margin:.5em 0;}	
+#form2 label{display:block;}	
+#form2 input, #form2 textarea{		
+	width:252px;
+	border:1px solid #ddd;
+	background:#fff url(../images/form1/form_input.gif) repeat-x;
+	padding:3px;
+	}		
+#form2 textarea{
+	height:125px;
+	overflow:auto;
+	}					
+#form2 p.submit{
+	clear:both;
+	background:url(../images/form1/form_bottom.gif) no-repeat 0 100% inherit;
+	padding:0 30px 20px 30px;
+	margin:0;
+	size:10%
+	text-align:right;
+	}
+#form2 p.signup{
+	padding:0 30px 20px 30px;
+	margin:0;
+	text-align:left;
+	}
+#form2 button{
+	width:150px;
+	height:37px;
+	line-height:37px;		
+	border:none;
+	background:url(../images/form1/form_button.gif) no-repeat 0 0 ;
+	color:#fff;
+	cursor:inherit;
+	text-align:center;
+	}				

@@ -1,0 +1,50 @@
+<?php
+require 'Connection.php';
+session_start();
+global $myDate ;
+$myDate= date('m/d/Y');
+
+
+if(!isset($_SESSION['username']))
+	header("refresh:0;url=../");
+?>
+
+
+<html>
+<head>
+<script language="javascript">
+function forgot()
+	{
+	 if(document.getElementById('roll').checked)
+	 {
+	  document.getElementById('rollc').style.visibility="visible";
+	  
+	 }
+	 else
+	 {
+	  document.getElementById('rollc').style.visibility="hidden";
+  	  
+	 }
+	}
+    </script>
+</head>
+<body>
+
+<font face="Georgia, Times New Roman, Times, serif" size="+1" color="#FF0000" style="background:#FFFFFF;"><?php echo ("Update roll call for  $myDate") ?></font>
+     <input id="roll" style="margin-left:10px;" type="radio"  onClick="javascript:forgot();" border="solid" />  
+  
+<form id="rollc" action="./rollcall.php" method="post" style="visibility:hidden;">
+	  <input type="number" placeholder="Registation number" name="email"/>
+	  <input type="submit" value="Go" name="enter"/> 
+  </form>
+  <?php $warden=$_SESSION['username'];
+  echo("Warden name= $warden");
+  ?>
+  <br>
+  <a>* Please input the registration number of guy/girl absent for rollcall</a><br>
+  <a>* There is no need to mark present because the default attendance will be present only.</a><br>
+  <a>* Roll call update can be done on the day before 00:00 only. To alter previous days roll call please contact admin.</a>
+
+</body>
+
+</html>

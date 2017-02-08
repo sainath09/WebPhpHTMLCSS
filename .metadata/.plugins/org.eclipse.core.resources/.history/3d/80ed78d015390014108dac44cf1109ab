@@ -1,0 +1,39 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 
+
+?>
+
+<html>
+<head>
+<script language="javascript">
+function forgot()
+	{
+	 if(document.getElementById('roll').checked)
+	 {
+	  document.getElementById('rollc').style.visibility="visible";
+	  
+	 }
+	 else
+	 {
+	  document.getElementById('rollc').style.visibility="hidden";
+  	  
+	 }
+	}
+    </script>
+</head>
+<body>
+
+<font face="Georgia, Times New Roman, Times, serif" size="+1" color="#FF0000" style="background:#FFFFFF;"><?php echo ("Update roll call for  $myDate") ?></font>
+     <input id="roll" style="margin-left:10px;" type="radio"  onClick="javascript:forgot();" border="solid" />  
+  
+<form id="rollc" action="./rollcall.php" method="post" style="visibility:hidden;">
+	  <input type="number" placeholder="Registation number" name="email"/>
+	  <input type="submit" value="Go" name="enter"/> 
+  </form>
+
+</body>
+
+</html>

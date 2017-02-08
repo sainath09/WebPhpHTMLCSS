@@ -1,0 +1,7 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 echo $myDate;
+
+?>

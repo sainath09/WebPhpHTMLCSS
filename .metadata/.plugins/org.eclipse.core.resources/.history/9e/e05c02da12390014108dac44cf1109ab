@@ -1,0 +1,16 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 echo $myDate;
+if($_POST['login'])
+ {
+	 $name=$_POST['username'];
+	 $pass=$_POST['password'];
+	 $name= stripslashes($name);
+     $pass= stripslashes($pass);
+     $name= mysql_real_escape_string($name);
+     $pass= mysql_real_escape_string($pass);
+     $u=mysql_query("SELECT * FROM $table WHERE username='$name'") or die("Not Found :P");
+ }
+?>

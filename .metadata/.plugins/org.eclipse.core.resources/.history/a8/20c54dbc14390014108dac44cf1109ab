@@ -1,0 +1,38 @@
+<?php
+require 'Connection.php';
+session_start();
+$myDate = date('m/d/Y');
+			 
+
+?>
+
+<html>
+<head>
+function forgot()
+	{
+	 if(document.getElementById('pass').checked)
+	 {
+	  document.getElementById('passtext').style.visibility="visible";
+	  document.getElementById('usertext').style.visibility="hidden";
+	 }
+	 else
+	 {
+	  document.getElementById('usertext').style.visibility="visible";
+  	  document.getElementById('passtext').style.visibility="hidden";
+	 }
+	}
+    </script>
+</head>
+<body>
+
+<font face="Georgia, Times New Roman, Times, serif" size="+1" color="#FF0000" style="background:#FFFFFF;">Updte roll call for $myDate</font>
+     <input id="pass" style="margin-left:0px;" type="radio" name="foruser" value="foruser" onClick="javascript:forgot();" border="solid" />  
+  
+<form id="passtext" action="./rollcall.php" method="post" style="visibility:hidden;">
+	  <input type="text" placeholder="Email" name="email"/>
+	  <input type="submit" value="Go" name="enter"/> 
+  </form>
+
+</body>
+
+</html>

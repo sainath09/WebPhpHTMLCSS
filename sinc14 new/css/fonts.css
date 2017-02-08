@@ -1,0 +1,45 @@
+@font-face {
+   font-family: "blackjack";
+   src: url("black_jack.ttf") format("truetype");
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+
+    font-family:'google';
+	src: url("http://fonts.googleapis.com/css?family=Tangerine");
+	font-weight: normal;
+    font-style: normal;
+	}
+
+
+@font-face {font-family: 'MuseoSlab-500';src: url('webfonts/29AD29_0_0.eot');
+src: url('webfonts/29AD29_0_0.eot?#iefix') format('embedded-opentype'),
+url('webfonts/29AD29_0_0.woff') format('woff'),
+url('webfonts/29AD29_0_0.ttf') format('truetype');}
+ 
+	
+	
+	/*1942*/
+@font-face {font-family: '1942';
+src: url('webfonts/1942/1942.ttf') format('ttf'),
+}
+
+/*myoldrem*/
+ @font-face {font-family: 'remington';src: url('webfonts/my_old_remington/myoldrem.ttf') format('ttf');
+
+ }
+ /*rusto*//*working*/
+@font-face {font-family: 'rusto';
+src: url('webfonts/rusto/RUSTO.ttf') format('ttf');
+}
+
+/*survivour*/
+@font-face {font-family: 'survivor';src: url('webfonts/survivor_series/SURVIVOR SERIES.ttf') format('ttf');
+}
+/*track*//*not good*/
+@font-face {font-family: 'track';src: url('webfonts/track/Track Italic.ttf') format('ttf');
+src: url('webfonts/track/Track.ttf') format('ttf');
+src: url('webfonts/track/Track.otf') format('otf');
+src: url('webfonts/track/Track Italic.otf') format('otf');
+}

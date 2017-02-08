@@ -1,0 +1,42 @@
+<?php
+require 'Connection.php';
+	if(!isset($_SESSION['username']))
+		//header("refresh:0;url=../");
+
+		$myDate= date('m/d/Y');
+		?>
+
+<!DOCTYPEhtml>
+<html>
+<head>
+<script language="javascript">
+function click()
+	{
+	 if(document.getElementById('rabcent').checked)
+	 {
+	  document.getElementById('text1').style.visibility="visible";
+	  
+	 }
+	 else
+	 {
+	  document.getElementById('text1').style.visibility="hidden";
+  	  
+	 }
+	}
+    </script>
+</head>
+<body>
+
+<form id='rcall'>
+<input id="rabcent" type="radio" name="rabscent" value="ab" onClick="javascript:click();"><?php echo("Roll call absent on $myDate ")?><br>
+<input id="rabcentr" type="radio" name="rabscent" value="abe" onClick="javascript:click();"> <?php echo("Roll call absent on $myDate due to emergency")?><br>
+</form>
+
+<form id="text1" action="./rollcall.php">
+<input  type="text" name="firstname" style="visibility:hidden;" >
+<input type="submit" name="submit"/>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+		
+						
+ul#rotator {list-style:none;margin:0px;padding:0px;width:200px;height:200px;overflow:hidden;}
+ul#rotator li,
+ul#rotator li a,
+ul#rotator li img,
+ul#rotator li a img {width:200px;height:200px;margin:0px;padding:0px;border:none;}
+
